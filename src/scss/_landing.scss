@@ -1,0 +1,151 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+
+}
+
+.header-main {
+    max-width: 1046px;
+    background: url('../images/design/cover-hero.jpg') center/cover no-repeat;
+
+    min-height: 100vh;
+
+    &__logo {
+        margin-right: 120px;
+
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+
+        color: $text-color;
+
+        transition: opacity ease .3s;
+
+        &:hover {
+            opacity: .5;
+        }
+    }
+
+    &__top {
+        display: flex;
+        height: 104px;
+        align-items: center;
+    }
+
+    &__nav {
+
+        ul {
+            li {
+                display: inline-block; 
+
+                margin-right: 21px;
+
+                &:last-child {
+                   margin-right: 0;
+                }
+                a {
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: $second-text-color;
+
+                    transition: color ease 0.3s;
+
+                    &:hover {
+                        color: $text-color;
+                    }
+                }
+            }
+        }
+    }
+
+    h1 {        
+        font-weight: 800;
+        font-size: 58px;
+        line-height: 80px;
+        letter-spacing: 0.2px;
+        text-transform: uppercase;
+    }
+
+    &__cta {
+
+        h4 {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: $second-text-color;
+        }
+    }
+}
+
+
+.features_10 {
+    background: #FAFAFA;
+    margin-top: 80px;
+    min-height: 526px;
+    letter-spacing: 0.2px;
+    .main_content {
+        .title {
+            text-align: center;
+            margin: 0 auto;
+            color: #252B42;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 57px;
+        }
+        .subtitle {
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 10px;
+            color: #737373;
+            font-weight: 500;
+        }
+    }
+    .row {
+        margin: 50px auto 80px;
+        display: flex;
+        padding: 0px;
+        gap: 30px;
+        .col_md_3 {
+            display: flex;
+            margin-right: 30px;
+            &:last-child {
+                margin-right: 0;
+             }
+            .card {
+                background: #FFFFFF;   
+                width: 230px;
+                height: 209px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                &_logo {
+        
+                }
+                &_title {
+                    color: #252B42;
+                    margin: 10px auto;
+                    text-align: center;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 57px;
+                }
+                &_subtitle {
+                    color: #737373;
+                    text-align: center;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+        
+    }
+    
+}
