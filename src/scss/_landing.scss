@@ -7,42 +7,46 @@ body {
     margin: 0 auto;
 }
 
+.title {
+    text-align: center;
+    color: #252B42;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+}
+.subtitle {
+    text-align: center;
+    margin-top: 10px;
+    color: #737373;
+    font-weight: 500;
+}
+
 .header-main {
     background: url('../images/design/cover-hero.jpg') center/cover no-repeat;
-
     min-height: 100vh;
 
     &__logo {
         margin-right: 120px;
-
         font-weight: 700;
         font-size: 24px;
         line-height: 32px;
         letter-spacing: 0.1px;
-
         color: $text-color;
-
         transition: opacity ease .3s;
-
         &:hover {
             opacity: .5;
         }
     }
-
     &__top {
         display: flex;
         height: 104px;
         align-items: center;
     }
-
     &__nav {
-
         ul {
             li {
                 display: inline-block; 
-
                 margin-right: 21px;
-
                 &:last-child {
                    margin-right: 0;
                 }
@@ -51,9 +55,7 @@ body {
                     font-size: 14px;
                     line-height: 24px;
                     color: $second-text-color;
-
                     transition: color ease 0.3s;
-
                     &:hover {
                         color: $text-color;
                     }
@@ -61,7 +63,6 @@ body {
             }
         }
     }
-
     h1 {        
         font-weight: 800;
         font-size: 58px;
@@ -79,36 +80,56 @@ body {
             color: $second-text-color;
         }
     }
+
+    &__info {
+        display: flex;
+        gap: 30px;
+
+        position: relative;
+        bottom: -20px;
+    }
+
+    &__info-item {
+        background-color: #fff;
+        box-shadow: 0px 13px 19px rgb(0 0 0 / 7%);
+
+        padding: 35px 40px;
+
+        h3 {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            color: $text-color;
+
+            margin: 10px 0;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: $second-text-color;
+        }
+    }
 }
 
 
 .features_10 {
     background: #FAFAFA;
-    margin-top: 80px;
-    min-height: 526px;
+    min-height: 657px;
     letter-spacing: 0.2px;
     .main_content {
+        padding-top: 211px;
         .title {
-            text-align: center;
-            color: #252B42;
             text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            font-weight: 700;
-            font-size: 40px;
-            line-height: 57px;
         }
         .subtitle {
-            text-align: center;
-            margin: 0 auto;
-            margin-top: 10px;
-            color: #737373;
-            font-weight: 500;
         }
     }
     .row {
         margin-top: 50px;
         margin-bottom: 80px;;
         display: flex;
-        padding: 0px;
         gap: 30px;
         .col_md_3 {
             display: flex;
@@ -118,15 +139,15 @@ body {
              }
             .card {
                 background: #FFFFFF;   
-                width: 230px;
-                height: 209px;
+                width: 241px;
+                height: 342px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
                 &_title {
+                    max-width: 135px;
                     color: #252B42;
-                    margin: 10px auto;
                     text-align: center;
                     font-weight: 700;
                     font-size: 40px;
@@ -141,8 +162,55 @@ body {
                     text-transform: uppercase;
                 }
             }
-        }
-        
+        }   
     }
-    
+}
+
+.features_7 {
+    min-height: 699px;
+    letter-spacing: 0.2px;
+    background: #FAFAFA;
+    .main_content {
+        padding-top: 137px;
+        .title {
+        }
+        .subtitle {
+        }
+    }
+    .row {
+        margin-top: 45px;
+        margin-bottom: 68px;;
+        display: flex;
+        gap: 30px;
+        .col_md_3 {
+            display: flex;
+            margin-right: 30px;
+            &:last-child {
+                margin-right: 0;
+             }
+            .card_item {
+                background: #FFFFFF;   
+                width: 230px;
+                height: 209px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                &_text_main {
+                    color: #252B42;
+                    text-align: center;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                &_text_descr {
+                    color: #737373;
+                    text-align: center;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }        
 }
