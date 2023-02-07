@@ -49,6 +49,8 @@ body {
 
     background: url('../images/design/cover-hero.jpg') center/cover no-repeat;
 
+    min-height: calc(100vh - 50px);
+    
     &__logo {
         margin-right: 120px;
 
