@@ -41,7 +41,7 @@ body {
 
 .header-main {
     .container {
-        min-height: calc(100vh - 50px);
+        
         display: flex;
         flex-wrap: wrap;
         align-content: space-between;
@@ -49,8 +49,6 @@ body {
 
     background: url('../images/design/cover-hero.jpg') center/cover no-repeat;
 
-    min-height: calc(100vh - 50px);
-    
     &__logo {
         margin-right: 120px;
 
