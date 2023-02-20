@@ -22,6 +22,11 @@
 
 /* Components */
 
+/* Sections */
+@import 'base/header';
+@import 'base/section1';
+@import 'base/section2';
+
 /* Browser specific styles */
 @import 'dirty/hacks';
 
