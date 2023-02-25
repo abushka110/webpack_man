@@ -2,37 +2,48 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .container {
     max-width: 1046px;
     margin: 0 auto;
 }
 
-.title {
-    text-align: center;
+h2 {   
     color: #252B42;
     font-weight: 700;
     font-size: 40px;
     line-height: 57px;
 }
 
-.subtitle {
-    text-align: center;
+.subtitle {    
     color: #737373;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
 }
 
-.subtitle5 {
+h5 {
     font-weight: 700;
     font-size: 16px;
+    line-height: 24px;
+}
+
+h6 {
+    color: #737373;
+    font-weight: 600;
+    font-size: 14px;
     line-height: 24px;
 }
 
 .row {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    align-items: center;
 }
 
 .col_md_3 {

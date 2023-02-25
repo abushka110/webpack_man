@@ -1,17 +1,20 @@
 .section_1 {
     background: #FAFAFA;
     letter-spacing: 0.2px;
-    padding-top: 211px;
-    padding-bottom: 172px;
+    padding: 211px 0 217px 0;
     .main_content {       
-        .title {
+        .title {            
             text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
         .subtitle {
+            margin: 10px 0 50px 0;
+            width: 50%;          
+            height: auto;
+            text-align: center;
         }
     }
-    .row {
-        margin-top: 50px;        
+    .row {        
+        gap: 30px;       
             .card_items {
                 background: #FFFFFF;   
                 width: 230px;

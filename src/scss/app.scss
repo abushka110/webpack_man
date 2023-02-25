@@ -23,9 +23,13 @@
 /* Components */
 
 /* Sections */
-@import 'base/header';
-@import 'base/section1';
-@import 'base/section2';
+@import 'sections/header';
+@import 'sections/section1';
+@import 'sections/section2';
+@import 'sections/section3';
+@import 'sections/section4';
+@import 'sections/section5';
+@import 'sections/footer';
 
 /* Browser specific styles */
 @import 'dirty/hacks';

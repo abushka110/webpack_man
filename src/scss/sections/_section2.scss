@@ -1,9 +1,16 @@
 .section_2 {
     letter-spacing: 0.2px;
     background: #FAFAFA;
+    .main_content {
+        .title {           
+        }
+        .subtitle {
+            margin: 10px 0 45px 0;
+            text-align: center;
+        }
+    }
     .row {
-        margin-top: 45px;
-        margin-bottom: 68px;
+        gap: 30px;
     }      
     .card_item {
         background: #FFFFFF;   
