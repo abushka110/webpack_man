@@ -413,6 +413,7 @@ input {
 .section_2 {
   letter-spacing: 0.2px;
   background: #FAFAFA;
+  padding: 0 0 68px 0;
 }
 .section_2 .main_content .subtitle {
   margin: 10px 0 45px 0;
@@ -450,7 +451,7 @@ input {
 }
 
 .section_3 {
-  padding: 189px 0 150px 0;
+  padding: 100px 0 150px 0;
 }
 .section_3 .main_content .title {
   width: 60%;
