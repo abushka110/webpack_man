@@ -17,11 +17,17 @@
         gap: 30px;       
             .card_items {
                 background: #FFFFFF;   
-                width: 230px;
-                height: 209px;
-                &__title {
+                width: 25%;
+                height: auto;
+                &__logo {
+                    margin: 30px 91px 10px;
                 }
-                &__subtitle5 {
+                .title {
+                }
+                .subtitle5 {
+                    margin: 10px auto 30px;
+                    color: #737373;
+                    text-align: center;
                     text-transform: uppercase;
                 }
             }
