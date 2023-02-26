@@ -1,0 +1,35 @@
+.section_4 {
+    padding: 50px 0 20px 0;
+    background: #FAFAFA;
+    .item {
+        gap: 30px;
+        &_icon {
+
+        }
+    }
+    .form {
+        margin-top: 70px;
+        padding: 50px 30px 40px;
+        background-color: #16697A;
+        &_title {
+            width: 50%;
+            color: #FFFFFF;
+        }
+        &_email {
+            // margin: 33px 40px 33px 0;
+            width: 50%;
+            height: auto;
+            
+            &__place {
+                background: #F9F9F9;
+                border: 1px solid #E6E6E6;
+                height: 100%;
+            }
+            &__btn {
+                background: #FFA62B;
+                border: 1px solid #E6E6E6;
+                height: 100%;
+            }
+        }
+    }
+}
