@@ -565,6 +565,60 @@ input {
   margin: 15px 0;
   color: #FFFFFF;
 }
+.footer .contact_us {
+  padding: 40px 0;
+  gap: 411px;
+}
+.footer .contact_us__text-title {
+  color: #252B42;
+}
+.footer .contact_us__text-subtitle {
+  margin-top: 10px;
+  color: #737373;
+}
+.footer .info {
+  padding: 50px 0;
+  background: #16697A;
+  gap: 30px;
+}
+.footer .info_column {
+  gap: 20px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+.footer .info_column__title {
+  color: #FFFFFF;
+}
+.footer .info_column__text {
+  gap: 10px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  color: #FFFFFF;
+}
+.footer .info_column__text-link {
+  color: #FFFFFF;
+}
+.footer .info_column__links {
+  gap: 10px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+.footer .info_column__links-item {
+  gap: 10px;
+}
+.footer .info_column__links-item__link {
+  color: #FFFFFF;
+}
+.footer .links {
+  padding: 25px 0;
+  gap: 485px;
+}
+.footer .links_social {
+  gap: 20px;
+}
 /* Browser specific styles */
 /**
  * Dirty hacks, yes internet explorer, we are looking at you
@@ -572,6 +626,7 @@ input {
 /* Landing styles */
 body {
   font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2px;
 }
 
 .container {
