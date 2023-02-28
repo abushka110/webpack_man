@@ -16,6 +16,8 @@
 /* Grid setup */
 /* Colour palette */
 /* Template colors */
+/* Text colors */
+/* Background colors */
 /* Components */
 /* CSS Reset */
 html,
@@ -273,19 +275,101 @@ input {
 
 /* Vendor */
 /* Components */
-/* Sections */
-.header-main {
-  background: url(../images/design/cover-hero.cac678.jpg) center/cover no-repeat;
+/* Browser specific styles */
+/**
+ * Dirty hacks, yes internet explorer, we are looking at you
+*/
+/* Landing styles */
+* {
+  letter-spacing: 0.2px;
 }
-.header-main .container {
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #252B42;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #252B42;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h4 {
+  color: #737373;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h6 {
+  color: #737373;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.subtitle {
+  color: #737373;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.container {
+  max-width: 1046px;
+  margin: 0 auto;
+}
+
+.row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-line-pack: justify;
-      align-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Sections */
 .header-main__logo {
   margin-right: 120px;
   font-weight: 700;
@@ -326,13 +410,6 @@ input {
 .header-main__nav ul li a:hover {
   color: #252B42;
 }
-.header-main h1 {
-  font-weight: 800;
-  font-size: 58px;
-  line-height: 80px;
-  letter-spacing: 0.2px;
-  text-transform: uppercase;
-}
 .header-main__cta {
   padding-right: 50%;
   width: 100%;
@@ -354,13 +431,10 @@ input {
   bottom: -20px;
 }
 .header-main__info-item {
-  background-color: #fff;
+  background-color: #FFFFFF;
   -webkit-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
           box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
   padding: 35px 40px;
-  /* &__h3 {
-      color: $white;
-  } */
 }
 .header-main__info-item:last-child {
   background-color: #00A0C1;
@@ -386,7 +460,7 @@ input {
 }
 
 .section_1 {
-  background: #FAFAFA;
+  background: #fafafa;
   letter-spacing: 0.2px;
   padding: 211px 0 217px 0;
 }
@@ -429,7 +503,7 @@ input {
 
 .section_2 {
   letter-spacing: 0.2px;
-  background: #FAFAFA;
+  background: #fafafa;
   padding: 0 0 68px 0;
 }
 .section_2 .main_content .subtitle {
@@ -494,7 +568,7 @@ input {
 
 .section_4 {
   padding: 50px 0 20px 0;
-  background: #FAFAFA;
+  background: #fafafa;
 }
 .section_4 .item {
   gap: 30px;
@@ -506,7 +580,7 @@ input {
 }
 .section_4 .form_title {
   width: 50%;
-  color: #FFFFFF;
+  color: #fff;
 }
 .section_4 .form_email {
   width: 50%;
@@ -528,13 +602,13 @@ input {
 
 .section_5 {
   padding: 80px 0 148px;
-  background: #F3F3F3;
+  background: #f3f3f3;
 }
 .section_5 .main_content .subtitle {
   margin: 10px 0 80px;
 }
 .section_5 .card_small {
-  background: #FFFFFF;
+  background: #fff;
   padding: 50px 53px 50px;
 }
 .section_5 .card_small__email {
@@ -558,14 +632,14 @@ input {
   margin-top: 15px;
 }
 .section_5 .card_big__email-1 {
-  color: #FFFFFF;
+  color: #fff;
 }
 .section_5 .card_big__email-2 {
-  color: #FFFFFF;
+  color: #fff;
 }
 .section_5 .card_big__support {
   margin: 15px 0;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .footer .contact_us {
@@ -591,17 +665,17 @@ input {
           align-items: start;
 }
 .footer .info_column__title {
-  color: #FFFFFF;
+  color: #fff;
 }
 .footer .info_column__text {
   gap: 10px;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
-  color: #FFFFFF;
+  color: #fff;
 }
 .footer .info_column__text-link {
-  color: #FFFFFF;
+  color: #fff;
 }
 .footer .info_column__links {
   gap: 10px;
@@ -613,7 +687,7 @@ input {
   gap: 10px;
 }
 .footer .info_column__links-item__link {
-  color: #FFFFFF;
+  color: #fff;
 }
 .footer .links {
   padding: 25px 0;
@@ -621,80 +695,4 @@ input {
 }
 .footer .links_social {
   gap: 20px;
-}
-
-/* Browser specific styles */
-/**
- * Dirty hacks, yes internet explorer, we are looking at you
-*/
-/* Landing styles */
-body {
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 0.2px;
-}
-
-.container {
-  max-width: 1046px;
-  margin: 0 auto;
-}
-
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.column {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-h2 {
-  color: #252B42;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 57px;
-}
-
-h3 {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-}
-
-h5 {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-h6 {
-  color: #737373;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-.subtitle {
-  color: #737373;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
 }
