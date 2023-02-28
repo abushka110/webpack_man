@@ -4,31 +4,31 @@
         gap: 411px;
         &__text {
             &-title {
-                color: #252B42;
+                color: $text-color;
             }
             &-subtitle {
                 margin-top: 10px;
-                color: #737373;
+                color: $second-text-color;
             }
         }
     }
 
     .info {
         padding: 50px 0;
-        background: #16697A;
+        background: $third-background-color;
         gap: 30px;
         &_column {
             gap: 20px;
             align-items: start;
             &__title {
-                color: #FFFFFF;
+                color: $third-text-color;
             }
             &__text {
                 gap: 10px;
                 align-items: start;
-                color: #FFFFFF;
+                color: $third-text-color;
                 &-link {
-                    color: #FFFFFF;
+                    color: $third-text-color;
                 }
             }
             &__links {
@@ -37,7 +37,7 @@
                 &-item {
                     gap: 10px;
                     &__link {
-                        color: #FFFFFF;
+                        color: $third-text-color;
                     }
                 }
             }

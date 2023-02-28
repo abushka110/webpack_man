@@ -1,6 +1,6 @@
 .section_5 {
     padding: 80px 0 148px;
-    background: #F3F3F3;
+    background: $second-background-color;
     
     .main_content {
         .subtitle {
@@ -9,37 +9,37 @@
     }
     .card {
         &_small {
-            background: #FFFFFF;
+            background: $foreground-color;
             padding: 50px 53px 50px;
             &__email {
                 margin-top: 50px;
                 &-1 {
-                    color: #252B42;
+                    color: $text-color;
                 }
                 &-2 {
-                    color: #252B42;
+                    color: $text-color;
                 }
             }
             &__support {
                 margin: 15px 0;
-                color: #252B42;
+                color: $text-color;
             }
         }
         &_big {
             padding: 80px 53.5px;
-            background: #252B42;
+            background: $text-color;
             &__email {
                 margin-top: 15px;
                 &-1 {
-                    color: #FFFFFF;
+                    color: $third-text-color;
                 }
                 &-2 {
-                    color: #FFFFFF;
+                    color: $third-text-color;
                 }
             }
             &__support {
                 margin: 15px 0;
-                color: #FFFFFF;
+                color: $third-text-color;
             }
         }
     }

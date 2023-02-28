@@ -1,5 +1,5 @@
 .section_1 {
-    background: #FAFAFA;
+    background: $background-color;
     letter-spacing: 0.2px;
     padding: 211px 0 217px 0;
     .main_content {       
@@ -16,7 +16,7 @@
     .row {        
         gap: 30px;       
             .card_items {
-                background: #FFFFFF;   
+                background: $seventh-background-color;   
                 width: 25%;
                 height: auto;
                 display: flex;
@@ -27,7 +27,7 @@
                 }
                 .subtitle5 {
                     margin: 10px auto 30px;
-                    color: #737373;
+                    color: $second-text-color;
                     text-align: center;
                     text-transform: uppercase;
                 }

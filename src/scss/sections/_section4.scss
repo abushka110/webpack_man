@@ -1,16 +1,16 @@
 .section_4 {
     padding: 50px 0 20px 0;
-    background: #FAFAFA;
+    background: $background-color;
     .item {
         gap: 30px;
     }
     .form {
         margin-top: 70px;
         padding: 50px 30px 40px;
-        background-color: #16697A;
+        background-color: $third-background-color;
         &_title {
             width: 50%;
-            color: #FFFFFF;
+            color: $foreground-color;
         }
         &_email {
             // margin: 33px 40px 33px 0;
@@ -18,18 +18,18 @@
             height: auto;
             
             &__place {
-                background: #F9F9F9;
-                border: 1px solid #E6E6E6;
+                background: $fourth-background-color;
+                border: 1px solid $btn-border;
                 height: 100%;
             }
             &__btn {
-                background: #FFA62B;
-                border: 1px solid #E6E6E6;
+                background: $fifth-background-color;
+                border: 1px solid $btn-border;
                 height: 100%;
             }
         }
     }
     .line {
-        background: #252B42;
+        background: $sixth-background-color;
     }
 }

@@ -12,9 +12,6 @@
 /* Fonts */
 @import 'base/fonts';
 
-/* Typography */
-@import 'base/typography';
-
 /* Mixins, helpers and functions */
 @import 'base/mixins';
 
@@ -25,6 +22,12 @@
 
 /* Components */
 
+/* Browser specific styles */
+@import 'dirty/hacks';
+
+/* Landing styles */
+@import 'landing';
+
 /* Sections */
 @import 'sections/header';
 @import 'sections/section1';
@@ -33,10 +36,3 @@
 @import 'sections/section4';
 @import 'sections/section5';
 @import 'sections/footer';
-
-/* Browser specific styles */
-@import 'dirty/hacks';
-
-/* Landing styles */
-@import 'landing';
-

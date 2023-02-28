@@ -1,6 +1,6 @@
 .section_2 {
     letter-spacing: 0.2px;
-    background: #FAFAFA;
+    background: $background-color;
     padding: 0 0 68px 0;
     .main_content {
         .subtitle {
@@ -12,13 +12,13 @@
         gap: 30px;
     }      
     .card_item {
-        background: #FFFFFF;   
+        background: $seventh-background-color;   
         display: flex;
         flex-wrap: wrap;
         align-content: space-between;
         width: 25%;
         .subtitle5 {
-            color: #252B42;
+            color: $text-color;
             margin: 30px 30px 15px;
         }
         .subtitle {

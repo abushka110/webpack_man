@@ -1,11 +1,5 @@
 .header-main {
-    .container { 
-        display: flex;
-        flex-wrap: wrap;
-        align-content: space-between;
-    }
-
-    background: url('../images/design/cover-hero.jpg') center/cover no-repeat;
+    
 
     &__logo {
         margin-right: 120px;
@@ -47,14 +41,6 @@
         }
     }
 
-    h1 {        
-        font-weight: 800;
-        font-size: 58px;
-        line-height: 80px;
-        letter-spacing: 0.2px;
-        text-transform: uppercase;
-    }
-
     &__cta {
         padding-right: 50%;
         width: 100%;
@@ -76,16 +62,16 @@
     }
 
     &__info-item {
-        background-color: #fff;
+        background-color: $seventh-background-color;
         box-shadow: 0px 13px 19px rgb(0 0 0 / 7%);
         padding: 35px 40px;
         &:last-child {
             background-color: $secondary-color;
             h3 {
-                color: $white;
+                color: $third-text-color;
             }
             p {
-                color: $white;
+                color: $third-text-color;
             }
         }
         h3 {
@@ -101,8 +87,5 @@
             line-height: 20px;
             color: $second-text-color;
         }
-        /* &__h3 {
-            color: $white;
-        } */
     }
 }
