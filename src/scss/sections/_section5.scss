@@ -3,9 +3,6 @@
     background: #F3F3F3;
     
     .main_content {
-        .title {
-
-        }
         .subtitle {
             margin: 10px 0 80px;
         }
@@ -14,8 +11,6 @@
         &_small {
             background: #FFFFFF;
             padding: 50px 53px 50px;
-            &__icon {
-            }
             &__email {
                 margin-top: 50px;
                 &-1 {
@@ -29,14 +24,10 @@
                 margin: 15px 0;
                 color: #252B42;
             }
-            &__btn {
-            }
         }
         &_big {
             padding: 80px 53.5px;
             background: #252B42;
-            &__icon {
-            }
             &__email {
                 margin-top: 15px;
                 &-1 {
@@ -49,8 +40,6 @@
             &__support {
                 margin: 15px 0;
                 color: #FFFFFF;
-            }
-            &__btn {
             }
         }
     }

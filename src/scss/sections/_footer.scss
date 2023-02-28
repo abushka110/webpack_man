@@ -1,5 +1,4 @@
 .footer {
-
     .contact_us {
         padding: 40px 0;
         gap: 411px;
@@ -11,8 +10,6 @@
                 margin-top: 10px;
                 color: #737373;
             }
-        }
-        &__btn {
         }
     }
 
@@ -39,8 +36,6 @@
                 align-items: start;
                 &-item {
                     gap: 10px;
-                    &__icon {
-                    }
                     &__link {
                         color: #FFFFFF;
                     }
@@ -53,12 +48,8 @@
     .links {
         padding: 25px 0;
         gap: 485px;
-        &_title {
-        }
         &_social {
             gap: 20px;
-            &__icon {
-            }
         }
     }
 }

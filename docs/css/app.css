@@ -270,6 +270,7 @@ input {
 .btn--rounded {
   border-radius: 37px;
 }
+
 /* Vendor */
 /* Components */
 /* Sections */
@@ -490,6 +491,7 @@ input {
 .section_3 .row .video_descr__card_subtitle5 {
   margin: 30px 0 5px 0;
 }
+
 .section_4 {
   padding: 50px 0 20px 0;
   background: #FAFAFA;
@@ -565,6 +567,7 @@ input {
   margin: 15px 0;
   color: #FFFFFF;
 }
+
 .footer .contact_us {
   padding: 40px 0;
   gap: 411px;
@@ -619,6 +622,7 @@ input {
 .footer .links_social {
   gap: 20px;
 }
+
 /* Browser specific styles */
 /**
  * Dirty hacks, yes internet explorer, we are looking at you
