@@ -1,0 +1,64 @@
+.footer {
+
+    .contact_us {
+        padding: 40px 0;
+        gap: 411px;
+        &__text {
+            &-title {
+                color: #252B42;
+            }
+            &-subtitle {
+                margin-top: 10px;
+                color: #737373;
+            }
+        }
+        &__btn {
+        }
+    }
+
+    .info {
+        padding: 50px 0;
+        background: #16697A;
+        gap: 30px;
+        &_column {
+            gap: 20px;
+            align-items: start;
+            &__title {
+                color: #FFFFFF;
+            }
+            &__text {
+                gap: 10px;
+                align-items: start;
+                color: #FFFFFF;
+                &-link {
+                    color: #FFFFFF;
+                }
+            }
+            &__links {
+                gap: 10px;
+                align-items: start;
+                &-item {
+                    gap: 10px;
+                    &__icon {
+                    }
+                    &__link {
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .links {
+        padding: 25px 0;
+        gap: 485px;
+        &_title {
+        }
+        &_social {
+            gap: 20px;
+            &__icon {
+            }
+        }
+    }
+}
