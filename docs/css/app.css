@@ -477,25 +477,15 @@ h6 {
   gap: 30px;
 }
 .section_1 .row .card_items {
+  padding: 30px 32px;
   background: #FFFFFF;
   width: 25%;
   height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
-.section_1 .row .card_items__logo {
-  margin: 30px 91px 10px;
+.section_1 .row .card_items .title {
+  margin: 10px 0;
 }
 .section_1 .row .card_items .subtitle5 {
-  margin: 10px auto 30px;
   color: #737373;
   text-align: center;
   text-transform: uppercase;
@@ -505,13 +495,11 @@ h6 {
   letter-spacing: 0.2px;
   background: #fafafa;
   padding: 0 0 68px 0;
+  margin: 30px auto;
 }
 .section_2 .main_content .subtitle {
   margin: 10px 0 45px 0;
   text-align: center;
-}
-.section_2 .row {
-  gap: 30px;
 }
 .section_2 .card_item {
   background: #FFFFFF;
