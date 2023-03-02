@@ -9,5 +9,14 @@ const sliderParameters = {
 
 const swiper = new Swiper('#features-slider', sliderParameters);
 
+// slick
+$(document).ready(function(){
+    $('.slick-slider').slick({
+      autoplay: true,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      infinite: true,
+    });
+  });
 // eslint-disable-next-line no-console
 console.log(demo());

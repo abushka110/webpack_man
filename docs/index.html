@@ -7,8 +7,10 @@
     <title>Webpack Project</title>    
     
     <!-- swiper connect -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+    <!-- slick connect -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 <link rel="icon" href="favicon.ico"><script defer src="js/app.js"></script><link href="css/app.css" rel="stylesheet"></head>
 <body>
     <header class="header-main">
@@ -60,29 +62,54 @@
                 <p class="subtitle">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
             </div>
 
-            <div class="row">
-                <div class="card_items column">
-                        <img src="images/content/section1/hero_icon_1.svg" alt="" class="card_items__logo">
-                        <h2 class="title">3K</h2>
-                        <h5 class="subtitle5">cases done</h5>
-                </div>
-    
-                <div class="card_items column">
-                        <img src="images/content/section1/hero_icon_2.svg" alt="" class="card_items__logo">
-                        <h2 class="title">45</h2>
-                        <h5 class="subtitle5">happy customers</h5>
-                </div>
+            <div class="row slick-slider">
                 
                 <div class="card_items column">
-                        <img src="images/content/section1/hero_icon_3.svg" alt="" class="card_items__logo">
-                        <h2 class="title">12+</h2>
-                        <h5 class="subtitle5">awward winning</h5>
+                    <img src="images/content/section1/hero_icon_1.svg" alt="" class="card_items__logo">
+                    <h2 class="title">3K</h2>
+                    <h5 class="subtitle5">cases done</h5>
                 </div>
-                
+
                 <div class="card_items column">
-                        <img src="images/content/section1/hero_icon_4.svg" alt="" class="card_items__logo">
-                        <h2 class="title">1.5K</h2>
-                        <h5 class="subtitle5">cases done</h5>
+                    <img src="images/content/section1/hero_icon_2.svg" alt="" class="card_items__logo">
+                    <h2 class="title">45</h2>
+                    <h5 class="subtitle5">happy customers</h5>
+                </div>
+            
+                <div class="card_items column">
+                    <img src="images/content/section1/hero_icon_3.svg" alt="" class="card_items__logo">
+                    <h2 class="title">12+</h2>
+                    <h5 class="subtitle5">awward winning</h5>
+                </div>
+            
+                <div class="card_items column">
+                    <img src="images/content/section1/hero_icon_4.svg" alt="" class="card_items__logo">
+                    <h2 class="title">1.5K</h2>
+                    <h5 class="subtitle5">cases done</h5>
+                </div>
+
+                <div class="card_items column">
+                    <img src="images/content/section1/hero_icon_1.svg" alt="" class="card_items__logo">
+                    <h2 class="title">3K</h2>
+                    <h5 class="subtitle5">cases done</h5>
+                </div>
+
+                <div class="card_items column">
+                    <img src="images/content/section1/hero_icon_2.svg" alt="" class="card_items__logo">
+                    <h2 class="title">45</h2>
+                    <h5 class="subtitle5">happy customers</h5>
+                </div>
+            
+                <div class="card_items column">
+                    <img src="images/content/section1/hero_icon_3.svg" alt="" class="card_items__logo">
+                    <h2 class="title">12+</h2>
+                    <h5 class="subtitle5">awward winning</h5>
+                </div>
+            
+                <div class="card_items column">
+                    <img src="images/content/section1/hero_icon_4.svg" alt="" class="card_items__logo">
+                    <h2 class="title">1.5K</h2>
+                    <h5 class="subtitle5">cases done</h5>
                 </div>
             </div>
         </div>
@@ -94,7 +121,7 @@
                 <h2 class="title">Practice Advice</h2>
                 <p class="subtitle">Problems trying to resolve the conflict between <br> the two major realms of Classical physics: Newtonian mechanics </p>
             </div>
-            <div class="row container swiper" id="features-slider">
+            <div class="swiper" id="features-slider">
                 <div class="swiper-wrapper">
                     <div class="card_item swiper-slide">
                         <div>
@@ -174,14 +201,13 @@
                 <img src="images/content/section4/aws.svg" alt="aws company" class="item_icon">
                 <img src="images/content/section4/reddit.svg" alt="reddit company" class="item_icon">
             </div>
-            <div class="row form">
-                <h3 class="form_title">Subscribe For Latest Newsletter</h3>
-                <form class="form_email">
-                    <input type="email" placeholder="Your Email" class="form_email__place">
-                    <input type="submit" value="Subscribe" class="form_email__btn">
-                <form/>
+            <div class="row subscribe">
+                <h3 class="subscribe_title">Subscribe For Latest Newsletter</h3>
+                <form action="#" class="subscribe_email">
+                    <input type="email" placeholder="Your Email" class="subscribe_email__place">
+                    <input type="submit" value="Subscribe" class="subscribe_email__btn">
+                </form>
             </div>
-            <div class="line"></div>
         </div>
     </section>
 
@@ -198,7 +224,7 @@
                         <h6 class="card_small__email-1">georgia.young@example.com</h6>
                         <h6 class="card_small__email-2">georgia.young@ple.comm</h6>
                     </div>
-                    <h5 class="card_small__support">Get Support<h5/>
+                    <h5 class="card_small__support">Get Support</h5>
                     <a href="#" class="card_small__btn btn btn--secondary btn--rounded btn--secondary--outline">Submit Request</a>
                 </div>
                 <div class="card_big column">
@@ -207,7 +233,7 @@
                         <h6 class="card_big__email-1">georgia.young@example.com</h6>
                         <h6 class="card_big__email-2">georgia.young@ple.comm</h6>
                     </div>
-                    <h5 class="card_big__support">Get Support<h5/>
+                    <h5 class="card_big__support">Get Support</h5>
                     <a href="#" class="card_big__btn btn btn--secondary btn--rounded btn--secondary--outline">Submit Request</a>
                 </div>
                 <div class="card_small column">
@@ -216,7 +242,7 @@
                         <h6 class="card_small__email-1">georgia.young@example.com</h6>
                         <h6 class="card_small__email-2">georgia.young@ple.comm</h6>
                     </div>
-                    <h5 class="card_small__support">Get Support<h5/>
+                    <h5 class="card_small__support">Get Support</h5>
                     <a href="#" class="card_small__btn btn btn--secondary btn--rounded btn--secondary--outline">Submit Request</a>
                 </div>
             </div>
@@ -249,7 +275,7 @@
                         <li><a href="#" class="info_column__text-link">Carrier</a></li>
                         <li><a href="#" class="info_column__text-link">We are hiring</a></li>
                         <li><a href="#" class="info_column__text-link">Blog</a></li>
-                    </>
+                    </ul>
                 </div>
                 <div class="info_column column">
                     <h5 class="info_column__title">Features</h5>
@@ -274,7 +300,7 @@
                     <ul class="info_column__links column">
                         <li class="info_column__links-item row">
                             <img src="images/content/footer/phone.svg" alt="phone" class="info_column__links-item__icon">
-                            <a href="tel:(480) 555-0103" class="info_column__links-item__link">(480) 555-0103</a>
+                            <a href="tel:+384805550103" class="info_column__links-item__link">+38(480) 555-0103</a>
                         </li>
                         <li class="info_column__links-item row">
                             <img src="images/content/footer/location.svg" alt="phone" class="info_column__links-item__icon">
@@ -306,4 +332,13 @@
             </div>
         </div>
     </footer>
+
+    <!-- swiper connect -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- slick connect -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
 </html>

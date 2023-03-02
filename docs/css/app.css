@@ -473,14 +473,12 @@ h6 {
   height: auto;
   text-align: center;
 }
-.section_1 .row {
-  gap: 30px;
-}
 .section_1 .row .card_items {
   padding: 30px 32px;
   background: #FFFFFF;
   width: 25%;
   height: auto;
+  margin: auto 30px;
 }
 .section_1 .row .card_items .title {
   margin: 10px 0;

@@ -13,13 +13,13 @@
             text-align: center;
         }
     }
-    .row {        
-        gap: 30px;       
+    .row {              
             .card_items {
                 padding: 30px 32px;
                 background: $seventh-background-color;   
                 width: 25%;
                 height: auto;
+                margin: auto 30px;
                 .title {
                     margin: 10px 0;
                 }
