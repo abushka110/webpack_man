@@ -2,29 +2,35 @@
     letter-spacing: 0.2px;
     background: $background-color;
     padding: 0 0 68px 0;
+
     .main_content {
         .subtitle {
             margin: 10px 0 45px 0;
             text-align: center;
         }
     }
-    margin: 30px auto;    
+
+    margin: 30px auto;
+
     .card_item {
-        background: $seventh-background-color;   
+        background: $seventh-background-color;
         display: flex;
         flex-wrap: wrap;
         align-content: space-between;
         width: 25%;
+
         .subtitle5 {
             color: $text-color;
             margin: 30px 30px 15px;
         }
+
         .subtitle {
-            margin: 15px 30px 30px;                
+            margin: 15px 30px 30px;
         }
+
         &__img {
-            width: 100%;                
+            width: 100%;
         }
-        
+
     }
 }

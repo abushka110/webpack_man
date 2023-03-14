@@ -1,27 +1,32 @@
 .section_4 {
     padding: 50px 0 20px 0;
     background: $background-color;
+
     .item {
         gap: 30px;
     }
+
     .form {
         margin-top: 70px;
         padding: 50px 30px 40px;
         background-color: $third-background-color;
+
         &_title {
             width: 50%;
             color: $foreground-color;
         }
+
         &_email {
             // margin: 33px 40px 33px 0;
             width: 50%;
             height: auto;
-            
+
             &__place {
                 background: $fourth-background-color;
                 border: 1px solid $btn-border;
                 height: 100%;
             }
+
             &__btn {
                 background: $fifth-background-color;
                 border: 1px solid $btn-border;
@@ -29,6 +34,7 @@
             }
         }
     }
+
     .line {
         background: $sixth-background-color;
     }

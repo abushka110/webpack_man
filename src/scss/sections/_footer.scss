@@ -2,10 +2,12 @@
     .contact_us {
         padding: 40px 0;
         gap: 411px;
+
         &__text {
             &-title {
                 color: $text-color;
             }
+
             &-subtitle {
                 margin-top: 10px;
                 color: $second-text-color;
@@ -17,25 +19,32 @@
         padding: 50px 0;
         background: $third-background-color;
         gap: 30px;
+
         &_column {
             gap: 20px;
             align-items: start;
+
             &__title {
                 color: $third-text-color;
             }
+
             &__text {
                 gap: 10px;
                 align-items: start;
                 color: $third-text-color;
+
                 &-link {
                     color: $third-text-color;
                 }
             }
+
             &__links {
                 gap: 10px;
                 align-items: start;
+
                 &-item {
                     gap: 10px;
+
                     &__link {
                         color: $third-text-color;
                     }
@@ -48,6 +57,7 @@
     .links {
         padding: 25px 0;
         gap: 485px;
+
         &_social {
             gap: 20px;
         }

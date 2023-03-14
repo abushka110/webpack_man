@@ -17,10 +17,12 @@ header {
   margin: 20px auto;
   position: relative;
 
-  small {  // header small {
+  small {
+    // header small {
     font-size: .5em;
 
-    img { // header small img {
+    img {
+      // header small img {
       display: inline;
       width: 20px;
     }
@@ -199,6 +201,7 @@ footer {
 }
 
 @media only screen and (min-width: 1024px) {
+
   header,
   main {
     width: 60%;
