@@ -49,6 +49,27 @@
         }
     }
 
+    &--tertiary {
+        background: $primary-color;
+        border: 1px solid $btn-border;
+
+        &--outline {
+            background-color: $primary-color;
+            color: white;
+        }
+
+        &--outline {
+            &:hover {
+                background-color: transparent;
+                color: $primary-color;
+            }
+        }
+
+        &--rounded {
+            border-radius: 0px 5px 5px 0px;
+        }
+    }
+
     &--rounded {
         border-radius: 37px;
     }
