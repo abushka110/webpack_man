@@ -1,40 +1,41 @@
 .section_4 {
-    padding: 50px 0 20px 0;
-    background: $background-color;
+  padding: 50px 0 20px 0;
+  background: $background-color;
 
-    .item {
-        gap: 30px;
+  .item {
+    gap: 30px;
+  }
+
+  .subscribe {
+    margin-top: 70px;
+    padding: 50px 30px 40px;
+    background-color: $third-background-color;
+    font-size: 0;
+
+    &_title {
+      width: 50%;
+      color: $foreground-color;
     }
 
-    .subscribe {
-        margin-top: 70px;
-        padding: 50px 30px 40px;
-        background-color: $third-background-color;
+    &_email {
+      width: 50%;
+      height: auto;
 
-        &_title {
-            width: 50%;
-            color: $foreground-color;
-        }
+      &__place {
+        padding: 15px 150px 15px 20px;
+        background: $fourth-background-color;
+        border: 1px solid $btn-border;
+        border-radius: 5px 0 0 5px;
+        font-size: 14px;
+      }
 
-        &_email {
-            width: 50%;
-            height: auto;
-
-            &__place {
-                background: $fourth-background-color;
-                border: 1px solid $btn-border;
-                height: 100%;
-            }
-
-            &__btn {
-                background: $fifth-background-color;
-                border: 1px solid $btn-border;
-                height: 100%;
-            }
-        }
+      &__btn {
+        padding: 9.5px 22.5px;
+      }
     }
+  }
 
-    .line {
-        background: $sixth-background-color;
-    }
+  .line {
+    background: $sixth-background-color;
+  }
 }
