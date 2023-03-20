@@ -1,77 +1,76 @@
 .btn {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 28px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
 
-    padding: 9px 35px;
+  padding: 9px 35px;
 
-    color: #fff;
+  color: #fff;
 
-    transition: all ease .4s;
+  transition: all ease 0.4s;
 
-    &+& {
-        margin-left: 10px;
+  & + & {
+    margin-left: 10px;
+  }
+
+  &--primary {
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+
+    &:hover,
+    &--outline {
+      background-color: transparent;
+      color: $primary-color;
     }
 
-    &--primary {
+    &--outline {
+      &:hover {
         background-color: $primary-color;
-        border: 1px solid $primary-color;
+        color: white;
+      }
+    }
+  }
 
-        &:hover,
-        &--outline {
-            background-color: transparent;
-            color: $primary-color;
-        }
+  &--secondary {
+    background-color: $secondary-color;
+    border: 1px solid $secondary-color;
 
-        &--outline {
-            &:hover {
-                background-color: $primary-color;
-                color: white;
-            }
-        }
+    &:hover,
+    &--outline {
+      background-color: transparent;
+      color: $secondary-color;
     }
 
-    &--secondary {
+    &--outline {
+      &:hover {
         background-color: $secondary-color;
-        border: 1px solid $secondary-color;
+        color: white;
+      }
+    }
+  }
 
-        &:hover,
-        &--outline {
-            background-color: transparent;
-            color: $secondary-color;
-        }
+  &--tertiary {
+    border: 1px solid $btn-border;
 
-        &--outline {
-            &:hover {
-                background-color: $secondary-color;
-                color: white;
-            }
-        }
+    &:hover,
+    &--outline {
+      background-color: $primary-color;
+      color: $third-text-color;
     }
 
-    &--tertiary {
-        background: $primary-color;
-        border: 1px solid $btn-border;
-
-        &:hover,
-        &--outline {
-            background-color: transparent;
-            color: $primary-color;
-        }
-
-        &--outline {
-            &:hover {
-                background-color: $primary-color;
-                color: white;
-            }
-        }
-
-        &--rounded {
-            border-radius: 0px 5px 5px 0px;
-        }
+    &--outline {
+      &:hover {
+        background-color: $third-text-color;
+        color: $primary-color;
+      }
     }
 
     &--rounded {
-        border-radius: 37px;
+      border-radius: 0px 5px 5px 0px;
     }
+  }
+
+  &--rounded {
+    border-radius: 37px;
+  }
 }
