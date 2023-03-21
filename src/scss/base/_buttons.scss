@@ -3,8 +3,6 @@
   font-size: 14px;
   line-height: 28px;
 
-  color: #fff;
-
   transition: all ease 0.4s;
 
   & + & {
@@ -15,6 +13,7 @@
     background-color: $primary-color;
     border: 1px solid $primary-color;
     padding: 9px 35px;
+    color: #fff;
 
     &:hover,
     &--outline {
@@ -50,27 +49,14 @@
   }
 
   &--tertiary {
-    border: 1px solid $btn-border;
-
-    &:hover,
-    &--outline {
-      background-color: $primary-color;
-      color: $third-text-color;
-    }
-
-    &--outline {
-      &:hover {
-        background-color: $third-text-color;
-        color: $primary-color;
-      }
-    }
-
-    &--rounded {
-      border-radius: 0px 5px 5px 0px;
-    }
+    border: 1px solid #FFA62B;
+    border-radius: 5px;
+    color: #FFA62B;
   }
 
-  &--rounded {
-    border-radius: 37px;
+  &--fourth {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    color: #FFFFFF;
   }
 }

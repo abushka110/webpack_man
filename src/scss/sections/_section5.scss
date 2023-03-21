@@ -32,6 +32,10 @@
         margin: 15px 0;
         color: $text-color;
       }
+
+      &__btn {
+        padding: 10px 20px;
+      }
     }
 
     &_big {
@@ -53,6 +57,10 @@
       &__support {
         margin: 15px 0;
         color: $third-text-color;
+      }
+
+      &__btn {
+        padding: 10px 20px;
       }
     }
   }

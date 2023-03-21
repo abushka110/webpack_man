@@ -239,7 +239,6 @@ input {
   font-weight: 700;
   font-size: 14px;
   line-height: 28px;
-  color: #fff;
   -webkit-transition: all ease 0.4s;
   transition: all ease 0.4s;
 }
@@ -250,6 +249,7 @@ input {
   background-color: #FFA62B;
   border: 1px solid #FFA62B;
   padding: 9px 35px;
+  color: #fff;
 }
 .btn--primary:hover, .btn--primary--outline {
   background-color: transparent;
@@ -273,21 +273,14 @@ input {
   color: white;
 }
 .btn--tertiary {
-  border: 1px solid #E6E6E6;
-}
-.btn--tertiary:hover, .btn--tertiary--outline {
-  background-color: #FFA62B;
-  color: #fff;
-}
-.btn--tertiary--outline:hover {
-  background-color: #fff;
+  border: 1px solid #FFA62B;
+  border-radius: 5px;
   color: #FFA62B;
 }
-.btn--tertiary--rounded {
-  border-radius: 0px 5px 5px 0px;
-}
-.btn--rounded {
-  border-radius: 37px;
+.btn--fourth {
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  color: #FFFFFF;
 }
 
 /* Vendor */
@@ -430,6 +423,9 @@ h6 {
 .header-main__cta {
   padding-right: 50%;
   width: 100%;
+}
+.header-main__cta_btn {
+  border-radius: 37px;
 }
 .header-main__cta h4 {
   font-weight: 500;
@@ -600,6 +596,8 @@ h6 {
 }
 .section_4 .subscribe_email__btn {
   padding: 9.5px 22.5px;
+  border: 1px solid #E6E6E6;
+  border-radius: 0px 5px 5px 0px;
 }
 .section_4 .line {
   background: #252B42;
@@ -632,6 +630,9 @@ h6 {
   margin: 15px 0;
   color: #252B42;
 }
+.section_5 .card_small__btn {
+  padding: 10px 20px;
+}
 .section_5 .card_big {
   padding: 80px 53.5px;
   background: #252B42;
@@ -649,6 +650,9 @@ h6 {
   margin: 15px 0;
   color: #fff;
 }
+.section_5 .card_big__btn {
+  padding: 10px 20px;
+}
 
 .footer .contact_us {
   padding: 40px 0;
@@ -660,6 +664,9 @@ h6 {
 .footer .contact_us__text-subtitle {
   margin-top: 10px;
   color: #737373;
+}
+.footer .contact_us__btn {
+  border-radius: 5px;
 }
 .footer .info {
   padding: 50px 0;
