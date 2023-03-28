@@ -577,7 +577,6 @@ h6 {
   margin-top: 70px;
   padding: 50px 30px 40px;
   background-color: #16697A;
-  font-size: 0;
 }
 .section_4 .subscribe_title {
   width: 50%;
@@ -586,18 +585,28 @@ h6 {
 .section_4 .subscribe_email {
   width: 50%;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .section_4 .subscribe_email__place {
-  padding: 15px 150px 15px 20px;
+  padding: 0 15px;
+  line-height: 56px;
+  width: 100%;
   background: #F9F9F9;
   border: 1px solid #E6E6E6;
   border-radius: 5px 0 0 5px;
-  font-size: 14px;
+  font-size: 16px;
+}
+.section_4 .subscribe_email__place:focus {
+  outline: auto;
 }
 .section_4 .subscribe_email__btn {
-  padding: 9.5px 22.5px;
+  padding: 0 22.5px;
+  line-height: 56px;
   border: 1px solid #E6E6E6;
   border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
 }
 .section_4 .line {
   background: #252B42;
