@@ -330,28 +330,28 @@
       <form action="#">
       
         <div class="username">
-          <label for="username_input" class="subtitle">Username</label><br>
+          <label for="username_input" class="subtitle">Username</label>
           <input type="text" class="username_input input" name="username_input" placeholder="Enter username"><br>
         </div>
 
         <div class="password">
-          <label for="password_input" class="subtitle">Password</label><br>
-          <input type="text" class="password_input input" name="password_input" placeholder="Enter password"><br>
-          <label for="password_input" class="subtitle">Your password is between 4 and 12 characters</label><br>
+          <label for="password_input" class="subtitle">Password</label>
+          <input type="text" class="password_input input" name="password_input" placeholder="Enter password">
+          <label for="password_input" class="subtitle">Your password is between 4 and 12 characters</label>
         </div>
 
         <div class="checkbox row">
-          <input type="checkbox" class="checkbox_btn">
-          <label for="checkbox_btn" class="subtitle">Remember me</label><br>
+          <input type="checkbox" class="checkbox_btn" id="checkbox_btn">
+          <label for="checkbox_btn" class="subtitle">Remember me</label>
         </div>
 
         <div class="radio row">
-          <input type="radio" class="radio_selection" name="radio_selection">
-          <label for="radio_selection" class="subtitle">Radio selection 1</label><br>
-          <input type="radio" class="radio_selection" name="radio_selection">
-          <label for="radio_selection" class="subtitle">Radio selection 2</label><br>
-          <input type="radio" class="radio_selection" name="radio_selection">
-          <label for="radio_selection" class="subtitle">Radio selection 3</label><br>
+          <input type="radio" class="radio_selection" id="radio_selection-1">
+          <label for="radio_selection-1" class="subtitle">Radio selection 1</label>
+          <input type="radio" class="radio_selection" id="radio_selection-2">
+          <label for="radio_selection-2" class="subtitle">Radio selection 2</label>
+          <input type="radio" class="radio_selection" id="radio_selection-3">
+          <label for="radio_selection-3" class="subtitle">Radio selection 3</label>
         </div>
 
         <select name="dropdown" class="subscribe_select subtitle">
@@ -370,6 +370,9 @@
   </section>
 
   <div class="overlay hidden"></div>
+
+  <!-- jQuery connect -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
   <!-- swiper connect -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
