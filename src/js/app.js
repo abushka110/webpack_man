@@ -36,5 +36,12 @@ document.addEventListener('keydown', function (e) {
   }
 });
 
+// Select2
+$(document).ready(function() { 
+  $('.subscribe_select').select2({
+    minimumResultsForSearch: Infinity
+  });
+});
+
 /* Demo JS */
 import './demo.js';
